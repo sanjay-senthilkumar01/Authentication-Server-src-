@@ -1,0 +1,26 @@
+server:
+  port: 9191
+spring:
+  datasource:
+    url: jdbc:sqlserver://inverse-platform-userdb-server-2.database.windows.net:1433;databaseName=inverse-user-data
+    username: Inverseuserbase@inverse-platform-userdb-server-2
+    password: Inverse@whystarted@230
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+    database : sqlserver
+
+    mail:
+        host: smtp.zoho.com
+        port: 587
+        username: no-reply.inverse@neuralinverse.live
+        password: hXtuiieeEevv
+        properties:
+          mail:
+            smtp:
+              auth: true
+              starttls:
+                enable: true
+
