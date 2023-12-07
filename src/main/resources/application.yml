@@ -2,8 +2,8 @@ server:
   port: 9191
 spring:
   datasource:
-    url: jdbc:sqlserver://inverse-platform-userdb-server-2.database.windows.net:1433;databaseName=inverse-user-data
-    username: Inverseuserbase@inverse-platform-userdb-server-2
+    url: jdbc:sqlserver://inverse-platform-userdb-server.database.windows.net:1433;databaseName=inverse-user-data
+    username: Inverseuserbase@inverse-platform-userdb-server
     password: Inverse@whystarted@230
     driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
   jpa:
